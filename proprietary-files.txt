@@ -1,0 +1,33 @@
+#
+# Vendor Blobs for tank
+#
+
+# Graphics
+bin/pq
+lib/egl/libEGL_mali.so
+lib/egl/libGLESv1_CM_mali.so
+lib/egl/libGLESv2_mali.so
+lib/hw/gralloc.mt8127.so
+lib/libMali.so
+lib/libdpframework.so
+lib/libgralloc_extra.so
+lib/libion_mtk.so
+lib/libm4u.so
+lib/libmtk_mali_user.so
+lib/libtz_uree.so
+
+# HDMI
+bin/hdmi
+lib/libhdmi.so
+lib/libhdmiservice.so
+
+# NVRAM
+lib/libcustom_nvram.so
+lib/libnvram.so
+lib/libnvram_platform.so
+lib/libnvram_sec.so
+lib/libnvramagentclient.so
+
+# TEE
+lib/libtz_uree.so
+lib/liburee_meta_drmkeyinstall_v2.so
