@@ -1,0 +1,56 @@
+#
+# system.prop for tank
+#
+
+# Audio
+ro.audio.monitorRotation=true
+ro.smartvolume.config=/system/vendor/smartvolume/tank/
+media.aac_51_output_enabled=true
+persist.panel.orientation=0
+
+# BTRemoted
+btremoted.decode.enabled=1
+btremoted.plc.enabled=1
+btremoted.trim_length=40
+btremoted.socket=btsco_audiohal
+
+# Graphics
+ro.opengles.version=131072
+ro.sf.lcd_density=320
+persist.panel.orientation=0
+persist.sys.resolution.auto=1
+
+# HDMI
+ro.hdmi.device_type=4
+
+# HWUI
+debug.hwui.render_dirty_regions=false
+ro.hwui.texture_cache_size=45
+ro.hwui.layer_cache_size=31
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.dt_cache_size=200
+
+# MediaTek
+mtk_in_house_tee_support=true
+ro.mediatek.chip_ver=S01
+ro.mediatek.version.release=ALPS.W10.24.p0
+ro.mtk_wfd_hdcp_rx_support=1
+ro.mtk_wfd_sink_support=1
+ro.mtk_wfd_support=1
+
+# Netflix
+ro.nrdp.modelgroup=FIRETVSTICK2016
+
+# TV
+ro.backup.disable=true
+ro.lockscreen.disable.default=1
+
+# Wifi
+mediatek.wlan.ctia=0
+persist.wifi.rssi.thresholds=-86,-79,-68,-62
+ro.mediatek.wlan.p2p=1
+ro.mediatek.wlan.wsc=1
+wifi.direct.interface=p2p0
+wifi.interface=wlan0
+wifi.tethering.interface=ap0
+wifi.wss.probresp.interface=p2p
