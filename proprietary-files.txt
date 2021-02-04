@@ -3,9 +3,14 @@
 #
 
 # ATV Apps - fugu
+-priv-app/AtvRemoteService/AtvRemoteService.apk|d06d769c7f3817087950ca8f66d6e6f6d4deaa3a
+-priv-app/GamepadPairingService/GamepadPairingService.apk|c15eb370ebd07f7844234063aebc6baab3a401f6
+-priv-app/GlobalKeyInterceptor/GlobalKeyInterceptor.apk|e117152e1a37f543f1902135afc65994f2a8da30
 -priv-app/LeanbackIme/LeanbackIme.apk|aa083b6e3cdf0d27494636dfa2f70c2cd3bfed3a
 -priv-app/LeanbackLauncher/LeanbackLauncher.apk|28810175f0e2ffb6a6c8bad8af8f45afb86fdfb1
+-priv-app/RemoteControlService/RemoteControlService.apk|313f976cfd845bcd9074c9ec3e709d9d1ca0d203
 -priv-app/SetupWraith/SetupWraith.apk|fc9b9ccd54596761ae65aedb5769ef541140c612
+-priv-app/TV/TV.apk|fe34e4c2d08a2b148379e45d3fff7591de0a700f
 
 # Graphics
 bin/pq
