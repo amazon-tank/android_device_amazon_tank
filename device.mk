@@ -83,6 +83,7 @@ PRODUCT_PACKAGES += \
 
 # TV
 PRODUCT_PACKAGES += \
+    CMLeanbackCustomizer \
     LiveTv \
     TvProvider \
     TvSettings \
