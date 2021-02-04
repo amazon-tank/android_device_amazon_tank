@@ -2,6 +2,11 @@
 # Vendor Blobs for tank
 #
 
+# ATV Apps - fugu
+-priv-app/LeanbackIme/LeanbackIme.apk|aa083b6e3cdf0d27494636dfa2f70c2cd3bfed3a
+-priv-app/LeanbackLauncher/LeanbackLauncher.apk|28810175f0e2ffb6a6c8bad8af8f45afb86fdfb1
+-priv-app/SetupWraith/SetupWraith.apk|fc9b9ccd54596761ae65aedb5769ef541140c612
+
 # Graphics
 bin/pq
 lib/egl/libEGL_mali.so
