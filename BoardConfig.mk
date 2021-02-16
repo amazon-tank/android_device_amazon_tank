@@ -79,5 +79,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.mt8127
 
+# Shims
+LINKER_FORCED_SHIM_LIBS += \
+    /system/lib/liblog.so|libshim_log.so
+
 # Vendor
 TARGET_COPY_OUT_VENDOR := system/vendor

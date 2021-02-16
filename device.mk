@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,${DEVICE_PATH}/rootdir,root)
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshim_log
+
 # TV
 PRODUCT_PACKAGES += \
     LiveTv \
