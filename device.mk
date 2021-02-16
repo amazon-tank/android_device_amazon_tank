@@ -47,7 +47,8 @@ TARGET_SCREEN_WIDTH := 600
 
 # Graphics
 PRODUCT_PACKAGES += \
-    libion
+    libion \
+    libstlport
 
 # Media
 PRODUCT_COPY_FILES += \
