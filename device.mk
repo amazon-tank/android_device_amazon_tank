@@ -50,6 +50,9 @@ PRODUCT_PACKAGES += \
     libion \
     libstlport
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/display/display_conf:system/etc/display_conf
+
 # Media
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/media/media_codecs.xml:system/etc/media_codecs.xml \
