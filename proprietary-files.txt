@@ -16,6 +16,15 @@
 etc/bluetooth/btmac.sh
 etc/bluetooth/rfkill_bt.sh
 
+# Firmware
+etc/firmware/ROMv2_patch_1_0_hdr.bin
+etc/firmware/ROMv2_patch_1_1_hdr.bin
+etc/firmware/WMT_SOC.cfg
+vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd
+vendor/firmware/brcm/bcm43569a2-firmware-test.bin
+vendor/firmware/brcm/bcm43569a2-firmware.bin
+vendor/firmware/brcm/bcm43569a2.nvm
+
 # Graphics
 bin/pq
 lib/egl/libEGL_mali.so
