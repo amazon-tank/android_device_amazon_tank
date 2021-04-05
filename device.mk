@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
     CMLeanbackCustomizer \
     LiveTv \
     TvProvider \
-    TvSettings \
+    TvSettingsTank \
     tv_input.default
 
 # USB
