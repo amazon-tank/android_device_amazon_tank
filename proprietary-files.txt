@@ -12,6 +12,10 @@
 -priv-app/SetupWraith/SetupWraith.apk|fc9b9ccd54596761ae65aedb5769ef541140c612
 -priv-app/TV/TV.apk|fe34e4c2d08a2b148379e45d3fff7591de0a700f
 
+# Bluetooth
+etc/bluetooth/btmac.sh
+etc/bluetooth/rfkill_bt.sh
+
 # Graphics
 bin/pq
 lib/egl/libEGL_mali.so

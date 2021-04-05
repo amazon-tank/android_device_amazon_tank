@@ -37,6 +37,13 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_IS_ATV_SDK := true
 PRODUCT_CHARACTERISTICS := tv,nosdcard
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbt-vendor
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
+
 # Debug
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/debug.rc:system/etc/init/debug.rc
