@@ -68,6 +68,9 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:system/etc/media_codecs_google_video.xml \
     $(DEVICE_PATH)/configs/media/media_profiles.xml:system/etc/media_profiles.xml
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS := $(DEVICE_PATH)/overlay
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
