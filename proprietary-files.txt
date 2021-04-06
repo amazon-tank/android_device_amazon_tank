@@ -54,3 +54,6 @@ lib/libnvramagentclient.so
 # TEE
 lib/libtz_uree.so
 lib/liburee_meta_drmkeyinstall_v2.so
+
+# Wifi
+lib/modules/bcmdhd.ko
